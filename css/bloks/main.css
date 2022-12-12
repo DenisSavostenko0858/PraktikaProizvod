@@ -1,0 +1,13 @@
+.container-content{
+    background-color: rgb(196, 224, 233);
+    opacity: 85%;
+    /* border-radius: 15px 15px 15px 15px; */
+    width: 100%;
+}
+.txt{
+    font-size: 18px;
+}
+body{
+    background: rgb(66,150,112);
+background: linear-gradient(90deg, rgba(66,150,112,1) 0%, rgba(150,201,181,1) 47%, rgba(8,181,109,1) 100%);
+}

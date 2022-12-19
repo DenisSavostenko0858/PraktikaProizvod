@@ -1,7 +1,6 @@
 .container-content{
     background-color: rgb(196, 224, 233);
     opacity: 85%;
-    /* border-radius: 15px 15px 15px 15px; */
     width: 100%;
 }
 .txt{
@@ -24,7 +23,7 @@ background: linear-gradient(90deg, rgba(66,150,112,1) 0%, rgba(150,201,181,1) 47
     background-color: aliceblue;
     border: solid 4px rgb(142, 202, 51);
 }
-/*  */
+/* Футер */
 .footer-distributed{
 	background: rgb(128, 119, 95);
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
@@ -41,16 +40,13 @@ background: linear-gradient(90deg, rgba(66,150,112,1) 0%, rgba(150,201,181,1) 47
 	display: inline-block;
 	vertical-align: top;
 }
-.gif{
-
-}
-/* Footer left */
+/* размер лого */
 
 .footer-distributed .footer-left{
 	width: 40%;
 }
 
-/* The company logo */
+/* лого ЦМИТ */
 
 .footer-distributed h3{
 	color:  #ffffff;
@@ -62,7 +58,7 @@ background: linear-gradient(90deg, rgba(66,150,112,1) 0%, rgba(150,201,181,1) 47
 	color:  lightseagreen;
 }
 
-/* Footer links */
+/* сслыки */
 
 .footer-distributed .footer-links{
 	color:  #ffffff;
@@ -85,7 +81,7 @@ background: linear-gradient(90deg, rgba(66,150,112,1) 0%, rgba(150,201,181,1) 47
 	margin: 0;
 }
 
-/* Footer Center */
+/* Контент футера */
 
 .footer-distributed .footer-center{
 	width: 35%;
@@ -103,20 +99,15 @@ background: linear-gradient(90deg, rgba(66,150,112,1) 0%, rgba(150,201,181,1) 47
 	margin: 10px 15px;
 	vertical-align: middle;
 }
-
-.footer-distributed .footer-center i.fa-envelope{
-	font-size: 17px;
-	line-height: 38px;
-}
-
+/* p в центре футера */
 .footer-distributed .footer-center p{
 	display: inline-block;
 	color: #ffffff;
-  font-weight:400;
+  	font-weight:400;
 	vertical-align: middle;
 	margin:0;
 }
-
+/* отступы в центре рамер*/
 .footer-distributed .footer-center p span{
 	display:block;
 	font-weight: normal;
@@ -139,11 +130,7 @@ background: linear-gradient(90deg, rgba(66,150,112,1) 0%, rgba(150,201,181,1) 47
   padding-right: 5px;
 }
 
-.footer-distributed .footer-links .link-1:before {
-  content: none;
-}
-
-/* Footer Right */
+/* Правая часть футера */
 
 .footer-distributed .footer-right{
 	width: 20%;
@@ -174,9 +161,6 @@ background: linear-gradient(90deg, rgba(66,150,112,1) 0%, rgba(150,201,181,1) 47
 	width: 35px;
 	height: 35px;
 	cursor: pointer;
-	background-color:  #33383b;
-	border-radius: 2px;
-
 	font-size: 20px;
 	color: #ffffff;
 	text-align: center;
@@ -190,7 +174,6 @@ background: linear-gradient(90deg, rgba(66,150,112,1) 0%, rgba(150,201,181,1) 47
 	.footer-distributed{
 		font: bold 14px sans-serif;
 	}
-
 	.footer-distributed .footer-left,
 	.footer-distributed .footer-center,
 	.footer-distributed .footer-right{

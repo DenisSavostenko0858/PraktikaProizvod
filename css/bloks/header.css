@@ -6,7 +6,8 @@
 .nav-link{
     color: black;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 22px;
+    font-family: 'Open Sans';
 }
 .nav-link:hover{
     color: grey;
@@ -17,4 +18,10 @@
     background-color: rgb(192, 212, 208);
     opacity: 95%;
     border-radius: 0px 0px 15px 15px;
+}
+
+.navbar{
+    background-color: rgb(196, 224, 233);
+    opacity: 85%;
+    width: 100%;
 }
